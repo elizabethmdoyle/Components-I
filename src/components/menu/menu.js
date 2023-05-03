@@ -19,6 +19,19 @@ let menuItems = [
     </ul>
   </div>
 
+*/
+
+function menuMaker() {
+
+const menu = document.createELement('div');
+const unorderedList = document.createELement('ul');
+const listItem = document.createElement('li');
+
+  return menu
+}
+
+/*
+
   The 'menuMaker' takes an array of menu items as its only argument.
 
   Step 2: Inside the function, iterate over the array creating a list item <li> element for each item in the array.
