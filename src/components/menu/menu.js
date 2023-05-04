@@ -35,10 +35,24 @@ let menuItems = [
 
 function menuMaker(menuItems) {
 
-  const menu = document.createELement('div');
-  const unorderedList = document.createELement('ul');
-  const listItem = document.createElement('li');
+  const header = document.querySelector('header');
+  console.log(header)
+  const menuButton = document.querySelector('.menu-button');
 
+  const menu = document.createELement('div');
+  const uList = document.createELement('ul');
+
+
+  const listItem = document.createElement('li');
+456
+
+  
+  menuButton.addEventListener('click', () => {
+
+  })
+
+  header.appendChild(menu)
+  menu.appendChild(uList);
 
   
 
@@ -51,3 +65,4 @@ function menuMaker(menuItems) {
   return menu
   
   }
+
