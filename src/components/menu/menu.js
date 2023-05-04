@@ -65,7 +65,7 @@ function menuMaker(linksArray) {
   
   }
 
-  console.log(menuMaker(menuItems))
+  // console.log(menuMaker(menuItems))
 
 
 header.appendChild(menuMaker(menuItems))
